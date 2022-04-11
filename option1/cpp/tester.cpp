@@ -3,8 +3,8 @@
 #include "hashing_max.h"
 #include "hashing_total.h"
 
-#include "valgrind/valgrind.h"
 #include <iostream>
+#include <valgrind/valgrind.h>
 
 // Note: This code will not run until you implement the methods required
 //   by HashtableOA
