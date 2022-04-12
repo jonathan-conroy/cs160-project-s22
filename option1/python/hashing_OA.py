@@ -1,11 +1,7 @@
 # Starter code for a hash table with open addressing
 # 
-# Note: we STRONGLY recommend that you use numpy to allocate your array
-#   Python arrays are weird: the array [1, 2, 3, 4, 5] takes more space than
-#   the array [1, 1, 1, 1, 1].
-#   However, numpy is sensible: The array np.array([1, 2, 3, 4, 5]) takes
-#   exactly the same amount of space as np.array([1, 1, 1, 1, 1]).
-import numpy
+# Note: Please do NOT use numpy. The pympler "asizeof" method that we recommend
+#       using to calculate memory usage does not work well with numpy arrays.
 
 class Hashtable_OA:
     def __init__(self):
